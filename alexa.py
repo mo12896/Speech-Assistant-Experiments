@@ -32,8 +32,8 @@ scope = "user-read-playback-state,user-modify-playback-state"
 
 sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
-        client_id="fc16914ca2f14a4cb9dba444e8ec9d29",
-        client_secret="f6de1e67d2d448dd8daf030b5e70f4e5",
+        client_id="...",
+        client_secret="...",
         redirect_uri="http://example.com/",
         scope=scope,
     )
